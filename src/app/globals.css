@@ -216,7 +216,7 @@ h3 {
   }
 } */
 
-@theme inline {
+/* @theme inline {
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
@@ -245,4 +245,4 @@ h3 {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
