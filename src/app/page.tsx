@@ -2,9 +2,11 @@ import ColorGenerator from '@/components/ColorGenerator';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-500">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-indigo-500/10 via-transparent to-transparent pointer-events-none" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-purple-500/5 via-transparent to-transparent pointer-events-none" />
+    <main className="min-h-screen bg-[#0c0c0e] selection:bg-[#4e42f9] selection:text-white transition-colors duration-1000">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#4e42f9]/10 blur-[120px] rounded-full" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[30%] h-[30%] bg-[#4e42f9]/5 blur-[100px] rounded-full" />
+      </div>
 
       <ColorGenerator />
     </main>
